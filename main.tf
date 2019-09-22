@@ -3,5 +3,5 @@ resource "null_resource" cluster_1_node2 {}
 resource "null_resource" cluster_1_node3 {}
 
 resource "null_resource" cluster_2 {
-  count = 3
+  count = 5
 }
